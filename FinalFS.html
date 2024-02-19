@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario de postulación</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title"> <span class="Lineatitulo">Formulario de postulación</span></h1>
+
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org' value="ests">
+      
+       Nombre completo <input id="name" name="first-name" type="text"  class="nombre"  /> <p class="resultado1" style="color: red"></p>
+        
+        Asunto <input id="email" name="email" type="email"  class="asunto"  /> <p class="resultado2" style="color: red"></p>
+        Mensaje <textarea id="ns" class="mensaje" ></textarea> <p class="resultado3" style="color: red"></p>
+     
+
+      <button id="boton" type="button">Envíar mensaje</button>
+      
+    </form>
+    <p class="resultado4" style="color: green"></p>
+    
+
+    <h1 id="title"> <span class="Lineatitulo">Calculadora</span></h1>
+
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org' value="ests">
+      
+      Primer número <input id="n1" class="num1" name="first-name" type="number" require /> 
+      <br>
+      <br>
+      Segundo número <input id="ns" class="num2" name="email" type="number" require  /> 
+      
+      <button id="boton2" type="button">Calcular</button>
+      <br>
+      <br>
+    
+      
+      <p class="resu" style="color: green"></p>
+   
+
+      <h1 id="title"> <span class="Lineatitulo">Color</span></h1>
+
+      <input type="color" id="colorPicker" onchange="cambiarColor()">
+    
+   </form>
+   <script src="sdsd.js"></script>
+  </body>
+</html>
